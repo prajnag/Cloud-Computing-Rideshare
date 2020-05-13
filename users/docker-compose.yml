@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: ./app
+    container_name: users
+    command: python3 user_api.py
+    restart: always
+    ports:
+      - 80:5000
+ 
