@@ -37,7 +37,7 @@ sudo docker-compose build
 sudo docker-compose up
 
 
-In the Rides VM
+In the Rides VM:
 
 To run the rides container 
 In the rides/app directory:
