@@ -7,7 +7,6 @@ In the DbaaS VM:
 1. To run Zookeeper and RabbitMQ
 In the home directory:
 sudo docker-compose build
-
 sudo docker-compose up 
 
 2. To run the Orchestrator 
