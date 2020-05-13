@@ -22,6 +22,7 @@ sudo docker-compose up
 Since the workers are being spawned from the Orchestrator,an image 'slave_app:latest' and a network called 'slave_default' needs to exist. If not, make sure it is created by running 
 
 sudo docker-compose build
+
 sudo docker-compose up
 
 in the orch/app/slave/app directory, and the process can be killed after the network is created. 
@@ -32,6 +33,7 @@ To run the users container
 In the users/app directory:
 
 sudo docker-compose build
+
 sudo docker-compose up
 
 
