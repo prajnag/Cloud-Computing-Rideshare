@@ -9,7 +9,6 @@ To run Zookeeper and RabbitMQ
 In the home directory:
 
 sudo docker-compose build
-
 sudo docker-compose up 
 
 To run the Orchestrator 
