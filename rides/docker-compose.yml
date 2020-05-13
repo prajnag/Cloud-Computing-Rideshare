@@ -1,0 +1,10 @@
+version: '2'
+services:
+  app:
+    build: ./app
+    container_name: rides
+    command: python3 rides_api.py
+    restart: always
+    ports:
+      - 80:5000
+
