@@ -1,8 +1,6 @@
 # Cloud-Computing-Rideshare
 Through this project, we aim to simulate a typical ride sharing application, where users can create new rides, join existing ones and view details of their booked rides.
-
 Running the project:
-
 In the DbaaS VM:
 1. To run Zookeeper and RabbitMQ
 In the home directory:
