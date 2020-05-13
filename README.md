@@ -4,14 +4,15 @@ Through this project, we aim to simulate a typical ride sharing application, whe
 Running the project:
 
 In the DbaaS VM:
-1. To run Zookeeper and RabbitMQ
+
+To run Zookeeper and RabbitMQ
 In the home directory:
 
 sudo docker-compose build
 
 sudo docker-compose up 
 
-2. To run the Orchestrator 
+To run the Orchestrator 
 In the orch/app directory:
 
 sudo docker-compose build
@@ -26,7 +27,8 @@ sudo docker-compose up
 in the orch/app/slave/app directory, and the process can be killed after the network is created. 
 
 In the Users VM:
-3. To run the users container
+
+To run the users container
 In the users/app directory:
 
 sudo docker-compose build
@@ -34,7 +36,8 @@ sudo docker-compose up
 
 
 In the Rides VM
-4. To run the rides container 
+
+To run the rides container 
 In the rides/app directory:
 
 sudo docker-compose build
